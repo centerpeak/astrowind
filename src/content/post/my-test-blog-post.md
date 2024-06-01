@@ -3,7 +3,7 @@ publishDate: 2024-05-31T00:00:00Z
 author: Scott Lang
 title: Get started with AstroWind to create a website using Astro and Tailwind CSS
 excerpt: Start your web journey with AstroWind – harness Astro and Tailwind CSS for a stunning site. Explore our guide now.
-image: https://upload.wikimedia.org/wikipedia/commons/7/7c/Nature%2CSUST.jpg
+image: ~/assets/images/hero-image.png
 category: Test
 tags:
   - test
