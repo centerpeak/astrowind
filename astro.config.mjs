@@ -11,6 +11,8 @@ import icon from 'astro-icon';
 import compress from '@playform/compress';
 
 import astrowind from './vendor/integration';
+import netlify from '@astrojs/netlify';
+
 
 import {
   readingTimeRemarkPlugin,
@@ -26,6 +28,8 @@ const whenExternalScripts = (items = []) =>
 
 export default defineConfig({
   output: 'server',
+  adapter: netlify(),
+  
 
   integrations: [
     tailwind({
